@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MarsPixelAssets — HTML5 Canvas Atlas & Tilemap Demo</title>
+  <style>
+    body {
+      background: #18121c;
+      color: #ecf2f8;
+      font-family: monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px;
+    }
+    canvas {
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+      border: 2px solid #38a8ee;
+      background: #4e201c;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h2>MarsPixelAssets — HTML5 Canvas Tile & Sprite Atlas Demo</h2>
+  <p>Demonstrates loading <code>mars_terrain_tiles_32px.png</code> and <code>astronaut_walk_4_directions.png</code> with crisp nearest-neighbor rendering.</p>
+  <canvas id="gameCanvas" width="512" height="384"></canvas>
+  <script>
+    const canvas = document.getElementById('gameCanvas');
+    const ctx = canvas.getContext('2d');
+    ctx.imageSmoothingEnabled = false;
+
+    const TILE_SIZE = 32;
+    const SCALE = 2;
+
+    const terrainAtlas = new Image();
+    terrainAtlas.src = '../terrain/mars_terrain_tiles_32px.png';
+
+    const astroAtlas = new Image();
+    astroAtlas.src = '../characters/astronaut_walk_4_directions.png';
+
+    const TILES = {
+      PLAIN: [0, 0],
+      STONES: [1, 0],
+      PATH_H: [0, 2],
+      BLUE_ROCK: [2, 2],
+      YELLOW_ROCK: [3, 2],
+      CRATER_FLOOR: [7, 0]
+    };
+
+    const sampleGrid = [
+      ['PLAIN', 'STONES', 'PLAIN', 'BLUE_ROCK', 'PLAIN', 'PLAIN', 'YELLOW_ROCK', 'PLAIN'],
+      ['PLAIN', 'PLAIN', 'STONES', 'PLAIN', 'PLAIN', 'STONES', 'PLAIN', 'PLAIN'],
+      ['PATH_H', 'PATH_H', 'PATH_H', 'PATH_H', 'PATH_H', 'PATH_H', 'PATH_H', 'PATH_H'],
+      ['PLAIN', 'CRATER_FLOOR', 'CRATER_FLOOR', 'PLAIN', 'STONES', 'PLAIN', 'PLAIN', 'STONES'],
+      ['PLAIN', 'CRATER_FLOOR', 'CRATER_FLOOR', 'PLAIN', 'PLAIN', 'BLUE_ROCK', 'PLAIN', 'PLAIN'],
+      ['STONES', 'PLAIN', 'PLAIN', 'PLAIN', 'PLAIN', 'PLAIN', 'PLAIN', 'PLAIN']
+    ];
+
+    let frame = 0;
+    function render() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (let r = 0; r < sampleGrid.length; r++) {
+        for (let c = 0; c < sampleGrid[r].length; c++) {
+          const [tc, tr] = TILES[sampleGrid[r][c]];
+          ctx.drawImage(
+            terrainAtlas,
+            tc * TILE_SIZE, tr * TILE_SIZE, TILE_SIZE, TILE_SIZE,
+            c * TILE_SIZE * SCALE, r * TILE_SIZE * SCALE, TILE_SIZE * SCALE, TILE_SIZE * SCALE
+          );
+        }
+      }
+      const walkCol = frame % 4;
+      ctx.drawImage(
+        astroAtlas,
+        walkCol * TILE_SIZE, 3 * TILE_SIZE, TILE_SIZE, TILE_SIZE,
+        3 * TILE_SIZE * SCALE, 2 * TILE_SIZE * SCALE - 8, TILE_SIZE * SCALE, TILE_SIZE * SCALE
+      );
+      frame++;
+    }
+
+    let loaded = 0;
+    const onAssetLoad = () => {
+      loaded++;
+      if (loaded === 2) setInterval(render, 180);
+    };
+    terrainAtlas.onload = onAssetLoad;
+    astroAtlas.onload = onAssetLoad;
+  </script>
+</body>
+</html>

@@ -1,0 +1,512 @@
+{
+  "character": "Mars Explorer Astronaut",
+  "native_frame_size": [
+    32,
+    32
+  ],
+  "directions": [
+    "down",
+    "up",
+    "left",
+    "right"
+  ],
+  "animations": {
+    "idle": 4,
+    "walk": 4,
+    "run": 4,
+    "start_stop": 4,
+    "scan": 4,
+    "tool": 4,
+    "collect": 4,
+    "terminal": 4,
+    "dash": 4,
+    "hurt": 4,
+    "low_o2": 4,
+    "defeated": 4,
+    "victory": 4
+  },
+  "alternate_skins": [
+    "default_white",
+    "blue_explorer",
+    "red_commander",
+    "green_biosuit",
+    "purple_vanguard"
+  ],
+  "sheets": {
+    "astronaut_down.png": {
+      "width": 128,
+      "height": 256,
+      "frame_width": 32,
+      "frame_height": 32,
+      "rows": [
+        {
+          "row": 0,
+          "animation": "idle",
+          "direction": "down",
+          "frame_count": 2,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 1,
+          "animation": "walk",
+          "direction": "down",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 2,
+          "animation": "run",
+          "direction": "down",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 3,
+          "animation": "scan",
+          "direction": "down",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 4,
+          "animation": "collect",
+          "direction": "down",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 5,
+          "animation": "tool",
+          "direction": "down",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 6,
+          "animation": "hurt",
+          "direction": "down",
+          "frame_count": 2,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 7,
+          "animation": "defeated",
+          "direction": "down",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        }
+      ]
+    },
+    "astronaut_up.png": {
+      "width": 128,
+      "height": 256,
+      "frame_width": 32,
+      "frame_height": 32,
+      "rows": [
+        {
+          "row": 0,
+          "animation": "idle",
+          "direction": "up",
+          "frame_count": 2,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 1,
+          "animation": "walk",
+          "direction": "up",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 2,
+          "animation": "run",
+          "direction": "up",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 3,
+          "animation": "scan",
+          "direction": "up",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 4,
+          "animation": "collect",
+          "direction": "up",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 5,
+          "animation": "tool",
+          "direction": "up",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 6,
+          "animation": "hurt",
+          "direction": "up",
+          "frame_count": 2,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 7,
+          "animation": "defeated",
+          "direction": "up",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        }
+      ]
+    },
+    "astronaut_left.png": {
+      "width": 128,
+      "height": 256,
+      "frame_width": 32,
+      "frame_height": 32,
+      "rows": [
+        {
+          "row": 0,
+          "animation": "idle",
+          "direction": "left",
+          "frame_count": 2,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 1,
+          "animation": "walk",
+          "direction": "left",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 2,
+          "animation": "run",
+          "direction": "left",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 3,
+          "animation": "scan",
+          "direction": "left",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 4,
+          "animation": "collect",
+          "direction": "left",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 5,
+          "animation": "tool",
+          "direction": "left",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 6,
+          "animation": "hurt",
+          "direction": "left",
+          "frame_count": 2,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 7,
+          "animation": "defeated",
+          "direction": "left",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        }
+      ]
+    },
+    "astronaut_right.png": {
+      "width": 128,
+      "height": 256,
+      "frame_width": 32,
+      "frame_height": 32,
+      "rows": [
+        {
+          "row": 0,
+          "animation": "idle",
+          "direction": "right",
+          "frame_count": 2,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 1,
+          "animation": "walk",
+          "direction": "right",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 2,
+          "animation": "run",
+          "direction": "right",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 3,
+          "animation": "scan",
+          "direction": "right",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 4,
+          "animation": "collect",
+          "direction": "right",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 5,
+          "animation": "tool",
+          "direction": "right",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 6,
+          "animation": "hurt",
+          "direction": "right",
+          "frame_count": 2,
+          "frame_width": 32,
+          "frame_height": 32
+        },
+        {
+          "row": 7,
+          "animation": "defeated",
+          "direction": "right",
+          "frame_count": 4,
+          "frame_width": 32,
+          "frame_height": 32
+        }
+      ]
+    },
+    "astronaut_walk_4_directions.png": {
+      "width": 128,
+      "height": 128,
+      "frame_width": 32,
+      "frame_height": 32,
+      "row_order": [
+        "down",
+        "up",
+        "left",
+        "right"
+      ],
+      "frames_per_row": 4
+    },
+    "astronaut_run_4_directions.png": {
+      "width": 128,
+      "height": 128,
+      "frame_width": 32,
+      "frame_height": 32,
+      "row_order": [
+        "down",
+        "up",
+        "left",
+        "right"
+      ],
+      "frames_per_row": 4
+    },
+    "astronaut_interactions.png": {
+      "width": 128,
+      "height": 544,
+      "frame_width": 32,
+      "frame_height": 32,
+      "rows": [
+        {
+          "row": 0,
+          "animation": "scan",
+          "direction": "down",
+          "frames": 4
+        },
+        {
+          "row": 1,
+          "animation": "scan",
+          "direction": "up",
+          "frames": 4
+        },
+        {
+          "row": 2,
+          "animation": "scan",
+          "direction": "left",
+          "frames": 4
+        },
+        {
+          "row": 3,
+          "animation": "scan",
+          "direction": "right",
+          "frames": 4
+        },
+        {
+          "row": 4,
+          "animation": "collect",
+          "direction": "down",
+          "frames": 4
+        },
+        {
+          "row": 5,
+          "animation": "collect",
+          "direction": "up",
+          "frames": 4
+        },
+        {
+          "row": 6,
+          "animation": "collect",
+          "direction": "left",
+          "frames": 4
+        },
+        {
+          "row": 7,
+          "animation": "collect",
+          "direction": "right",
+          "frames": 4
+        },
+        {
+          "row": 8,
+          "animation": "tool",
+          "direction": "down",
+          "frames": 4
+        },
+        {
+          "row": 9,
+          "animation": "tool",
+          "direction": "up",
+          "frames": 4
+        },
+        {
+          "row": 10,
+          "animation": "tool",
+          "direction": "left",
+          "frames": 4
+        },
+        {
+          "row": 11,
+          "animation": "tool",
+          "direction": "right",
+          "frames": 4
+        },
+        {
+          "row": 12,
+          "animation": "hurt",
+          "direction": "down",
+          "frames": 2
+        },
+        {
+          "row": 13,
+          "animation": "hurt",
+          "direction": "up",
+          "frames": 2
+        },
+        {
+          "row": 14,
+          "animation": "hurt",
+          "direction": "left",
+          "frames": 2
+        },
+        {
+          "row": 15,
+          "animation": "hurt",
+          "direction": "right",
+          "frames": 2
+        },
+        {
+          "row": 16,
+          "animation": "defeated",
+          "direction": "down",
+          "frames": 4
+        }
+      ]
+    },
+    "astronaut_alternate_skins.png": {
+      "width": 256,
+      "height": 160,
+      "frame_width": 32,
+      "frame_height": 32,
+      "row_order": [
+        "default_white",
+        "blue_explorer",
+        "red_commander",
+        "green_biosuit",
+        "purple_vanguard"
+      ],
+      "column_order": [
+        "down_idle",
+        "down_walk",
+        "up_idle",
+        "up_walk",
+        "left_idle",
+        "left_walk",
+        "right_idle",
+        "right_walk"
+      ]
+    }
+  },
+  "master_sheet": {
+    "file": "astronaut_master_sheet.png",
+    "width": 512,
+    "height": 416,
+    "frame_width": 32,
+    "frame_height": 32,
+    "rows": [
+      "idle",
+      "walk",
+      "run",
+      "start_stop",
+      "scan",
+      "tool",
+      "collect",
+      "terminal",
+      "dash",
+      "hurt",
+      "low_o2",
+      "defeated",
+      "victory"
+    ],
+    "direction_column_blocks": {
+      "down": 0,
+      "up": 4,
+      "left": 8,
+      "right": 12
+    }
+  }
+}

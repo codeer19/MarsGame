@@ -1,0 +1,2094 @@
+{
+  "pack_name": "MarsPixelAssets",
+  "version": "1.0.0",
+  "style": "16-bit Top-Down Indie Pixel Art (Martian Exploration)",
+  "palette_colors": 36,
+  "categories": {
+    "characters": {
+      "character": "Mars Explorer Astronaut",
+      "native_frame_size": [
+        32,
+        32
+      ],
+      "directions": [
+        "down",
+        "up",
+        "left",
+        "right"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 4,
+        "run": 4,
+        "scan": 4,
+        "collect": 4,
+        "tool": 4,
+        "hurt": 2,
+        "defeated": 4
+      },
+      "alternate_skins": [
+        "default_white",
+        "blue_explorer",
+        "red_commander",
+        "green_biosuit",
+        "purple_vanguard"
+      ],
+      "sheets": {
+        "astronaut_down.png": {
+          "width": 128,
+          "height": 256,
+          "frame_width": 32,
+          "frame_height": 32,
+          "rows": [
+            {
+              "row": 0,
+              "animation": "idle",
+              "direction": "down",
+              "frame_count": 2,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 1,
+              "animation": "walk",
+              "direction": "down",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 2,
+              "animation": "run",
+              "direction": "down",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 3,
+              "animation": "scan",
+              "direction": "down",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 4,
+              "animation": "collect",
+              "direction": "down",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 5,
+              "animation": "tool",
+              "direction": "down",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 6,
+              "animation": "hurt",
+              "direction": "down",
+              "frame_count": 2,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 7,
+              "animation": "defeated",
+              "direction": "down",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            }
+          ]
+        },
+        "astronaut_up.png": {
+          "width": 128,
+          "height": 256,
+          "frame_width": 32,
+          "frame_height": 32,
+          "rows": [
+            {
+              "row": 0,
+              "animation": "idle",
+              "direction": "up",
+              "frame_count": 2,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 1,
+              "animation": "walk",
+              "direction": "up",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 2,
+              "animation": "run",
+              "direction": "up",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 3,
+              "animation": "scan",
+              "direction": "up",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 4,
+              "animation": "collect",
+              "direction": "up",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 5,
+              "animation": "tool",
+              "direction": "up",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 6,
+              "animation": "hurt",
+              "direction": "up",
+              "frame_count": 2,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 7,
+              "animation": "defeated",
+              "direction": "up",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            }
+          ]
+        },
+        "astronaut_left.png": {
+          "width": 128,
+          "height": 256,
+          "frame_width": 32,
+          "frame_height": 32,
+          "rows": [
+            {
+              "row": 0,
+              "animation": "idle",
+              "direction": "left",
+              "frame_count": 2,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 1,
+              "animation": "walk",
+              "direction": "left",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 2,
+              "animation": "run",
+              "direction": "left",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 3,
+              "animation": "scan",
+              "direction": "left",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 4,
+              "animation": "collect",
+              "direction": "left",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 5,
+              "animation": "tool",
+              "direction": "left",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 6,
+              "animation": "hurt",
+              "direction": "left",
+              "frame_count": 2,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 7,
+              "animation": "defeated",
+              "direction": "left",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            }
+          ]
+        },
+        "astronaut_right.png": {
+          "width": 128,
+          "height": 256,
+          "frame_width": 32,
+          "frame_height": 32,
+          "rows": [
+            {
+              "row": 0,
+              "animation": "idle",
+              "direction": "right",
+              "frame_count": 2,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 1,
+              "animation": "walk",
+              "direction": "right",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 2,
+              "animation": "run",
+              "direction": "right",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 3,
+              "animation": "scan",
+              "direction": "right",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 4,
+              "animation": "collect",
+              "direction": "right",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 5,
+              "animation": "tool",
+              "direction": "right",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 6,
+              "animation": "hurt",
+              "direction": "right",
+              "frame_count": 2,
+              "frame_width": 32,
+              "frame_height": 32
+            },
+            {
+              "row": 7,
+              "animation": "defeated",
+              "direction": "right",
+              "frame_count": 4,
+              "frame_width": 32,
+              "frame_height": 32
+            }
+          ]
+        },
+        "astronaut_walk_4_directions.png": {
+          "width": 128,
+          "height": 128,
+          "frame_width": 32,
+          "frame_height": 32,
+          "row_order": [
+            "down",
+            "up",
+            "left",
+            "right"
+          ],
+          "frames_per_row": 4
+        },
+        "astronaut_run_4_directions.png": {
+          "width": 128,
+          "height": 128,
+          "frame_width": 32,
+          "frame_height": 32,
+          "row_order": [
+            "down",
+            "up",
+            "left",
+            "right"
+          ],
+          "frames_per_row": 4
+        },
+        "astronaut_interactions.png": {
+          "width": 128,
+          "height": 544,
+          "frame_width": 32,
+          "frame_height": 32,
+          "rows": [
+            {
+              "row": 0,
+              "animation": "scan",
+              "direction": "down",
+              "frames": 4
+            },
+            {
+              "row": 1,
+              "animation": "scan",
+              "direction": "up",
+              "frames": 4
+            },
+            {
+              "row": 2,
+              "animation": "scan",
+              "direction": "left",
+              "frames": 4
+            },
+            {
+              "row": 3,
+              "animation": "scan",
+              "direction": "right",
+              "frames": 4
+            },
+            {
+              "row": 4,
+              "animation": "collect",
+              "direction": "down",
+              "frames": 4
+            },
+            {
+              "row": 5,
+              "animation": "collect",
+              "direction": "up",
+              "frames": 4
+            },
+            {
+              "row": 6,
+              "animation": "collect",
+              "direction": "left",
+              "frames": 4
+            },
+            {
+              "row": 7,
+              "animation": "collect",
+              "direction": "right",
+              "frames": 4
+            },
+            {
+              "row": 8,
+              "animation": "tool",
+              "direction": "down",
+              "frames": 4
+            },
+            {
+              "row": 9,
+              "animation": "tool",
+              "direction": "up",
+              "frames": 4
+            },
+            {
+              "row": 10,
+              "animation": "tool",
+              "direction": "left",
+              "frames": 4
+            },
+            {
+              "row": 11,
+              "animation": "tool",
+              "direction": "right",
+              "frames": 4
+            },
+            {
+              "row": 12,
+              "animation": "hurt",
+              "direction": "down",
+              "frames": 2
+            },
+            {
+              "row": 13,
+              "animation": "hurt",
+              "direction": "up",
+              "frames": 2
+            },
+            {
+              "row": 14,
+              "animation": "hurt",
+              "direction": "left",
+              "frames": 2
+            },
+            {
+              "row": 15,
+              "animation": "hurt",
+              "direction": "right",
+              "frames": 2
+            },
+            {
+              "row": 16,
+              "animation": "defeated",
+              "direction": "down",
+              "frames": 4
+            }
+          ]
+        },
+        "astronaut_alternate_skins.png": {
+          "width": 256,
+          "height": 160,
+          "frame_width": 32,
+          "frame_height": 32,
+          "row_order": [
+            "default_white",
+            "blue_explorer",
+            "red_commander",
+            "green_biosuit",
+            "purple_vanguard"
+          ],
+          "column_order": [
+            "down_idle",
+            "down_walk",
+            "up_idle",
+            "up_walk",
+            "left_idle",
+            "left_walk",
+            "right_idle",
+            "right_walk"
+          ]
+        }
+      }
+    },
+    "terrain": {
+      "tileset_name": "mars_terrain_tiles_32px",
+      "tile_width": 32,
+      "tile_height": 32,
+      "columns": 8,
+      "rows": 4,
+      "total_tiles": 32,
+      "atlas_file": "mars_terrain_tiles_32px.png",
+      "tiles": [
+        {
+          "index": 0,
+          "name": "01_plain_red_ground",
+          "row": 0,
+          "col": 0,
+          "x": 0,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "ground",
+          "walkable": true,
+          "description": "Plain red Martian ground"
+        },
+        {
+          "index": 1,
+          "name": "02_sparse_small_stones",
+          "row": 0,
+          "col": 1,
+          "x": 32,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "ground",
+          "walkable": true,
+          "description": "Ground with sparse small stones"
+        },
+        {
+          "index": 2,
+          "name": "03_dense_rocky_ground",
+          "row": 0,
+          "col": 2,
+          "x": 64,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "ground",
+          "walkable": true,
+          "description": "Dense rocky ground"
+        },
+        {
+          "index": 3,
+          "name": "04_fine_martian_sand",
+          "row": 0,
+          "col": 3,
+          "x": 96,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "sand",
+          "walkable": true,
+          "description": "Sand or fine Martian dust with wind ripples"
+        },
+        {
+          "index": 4,
+          "name": "05_fine_reddish_soil",
+          "row": 0,
+          "col": 4,
+          "x": 128,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "soil",
+          "walkable": true,
+          "description": "Fine dark reddish iron-rich soil"
+        },
+        {
+          "index": 5,
+          "name": "06_small_isolated_rocks",
+          "row": 0,
+          "col": 5,
+          "x": 160,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "rock",
+          "walkable": true,
+          "description": "Small isolated basalt rocks"
+        },
+        {
+          "index": 6,
+          "name": "07_large_boulders",
+          "row": 0,
+          "col": 6,
+          "x": 192,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "obstacle",
+          "walkable": false,
+          "description": "Large impassable Martian boulders"
+        },
+        {
+          "index": 7,
+          "name": "08_crater_floor",
+          "row": 0,
+          "col": 7,
+          "x": 224,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "crater",
+          "walkable": true,
+          "description": "Recessed dark crater floor"
+        },
+        {
+          "index": 8,
+          "name": "09_crater_rim",
+          "row": 1,
+          "col": 0,
+          "x": 0,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "crater",
+          "walkable": false,
+          "description": "Elevated crater rim edge"
+        },
+        {
+          "index": 9,
+          "name": "10_cliff_top",
+          "row": 1,
+          "col": 1,
+          "x": 32,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "cliff",
+          "walkable": false,
+          "description": "Cliff top rocky lip"
+        },
+        {
+          "index": 10,
+          "name": "11_cliff_side_wall",
+          "row": 1,
+          "col": 2,
+          "x": 64,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "cliff",
+          "walkable": false,
+          "description": "Stratified vertical cliff wall"
+        },
+        {
+          "index": 11,
+          "name": "12_cliff_corner",
+          "row": 1,
+          "col": 3,
+          "x": 96,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "cliff",
+          "walkable": false,
+          "description": "Cliff outer left corner transition"
+        },
+        {
+          "index": 12,
+          "name": "13_uphill_slope",
+          "row": 1,
+          "col": 4,
+          "x": 128,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "slope",
+          "walkable": true,
+          "description": "Terraced uphill Martian slope"
+        },
+        {
+          "index": 13,
+          "name": "14_downhill_slope",
+          "row": 1,
+          "col": 5,
+          "x": 160,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "slope",
+          "walkable": true,
+          "description": "Scree downhill Martian slope"
+        },
+        {
+          "index": 14,
+          "name": "15_broken_rocky_ridge",
+          "row": 1,
+          "col": 6,
+          "x": 192,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "ridge",
+          "walkable": false,
+          "description": "Jagged broken rocky ridge"
+        },
+        {
+          "index": 15,
+          "name": "16_rubble_field",
+          "row": 1,
+          "col": 7,
+          "x": 224,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "rubble",
+          "walkable": true,
+          "description": "Rough impact rubble field"
+        },
+        {
+          "index": 16,
+          "name": "17_dusty_path",
+          "row": 2,
+          "col": 0,
+          "x": 0,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "path",
+          "walkable": true,
+          "description": "Compacted dusty rover/explorer path"
+        },
+        {
+          "index": 17,
+          "name": "18_ancient_rock_formation",
+          "row": 2,
+          "col": 1,
+          "x": 32,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "formation",
+          "walkable": false,
+          "description": "Layered ancient Martian mesa outcrop"
+        },
+        {
+          "index": 18,
+          "name": "19_blue_mineral_rock",
+          "row": 2,
+          "col": 2,
+          "x": 64,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "mineral_node",
+          "walkable": false,
+          "description": "Basalt outcrop rich in blue azurite/cobalt crystals"
+        },
+        {
+          "index": 19,
+          "name": "20_yellow_mineral_rock",
+          "row": 2,
+          "col": 3,
+          "x": 96,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "mineral_node",
+          "walkable": false,
+          "description": "Basalt outcrop rich in yellow sulfur/heliodor veins"
+        },
+        {
+          "index": 20,
+          "name": "21_green_mineral_rock",
+          "row": 2,
+          "col": 4,
+          "x": 128,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "mineral_node",
+          "walkable": false,
+          "description": "Basalt outcrop rich in green Martian olivine"
+        },
+        {
+          "index": 21,
+          "name": "22_unusual_geological_formation",
+          "row": 2,
+          "col": 5,
+          "x": 160,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "formation",
+          "walkable": false,
+          "description": "Hexagonal columnar basalt geological anomaly"
+        },
+        {
+          "index": 22,
+          "name": "23_ice_bearing_patch",
+          "row": 2,
+          "col": 6,
+          "x": 192,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "science_surface",
+          "walkable": true,
+          "description": "Exposed subsurface water-ice permafrost patch"
+        },
+        {
+          "index": 23,
+          "name": "24_metal_rich_surface",
+          "row": 2,
+          "col": 7,
+          "x": 224,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "science_surface",
+          "walkable": true,
+          "description": "Iron-nickel meteorite-enriched metallic surface"
+        },
+        {
+          "index": 24,
+          "name": "25_cliff_corner_right",
+          "row": 3,
+          "col": 0,
+          "x": 0,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "cliff",
+          "walkable": false,
+          "description": "Cliff outer right corner transition"
+        },
+        {
+          "index": 25,
+          "name": "26_cliff_edge_left",
+          "row": 3,
+          "col": 1,
+          "x": 32,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "cliff",
+          "walkable": false,
+          "description": "Cliff left vertical boundary"
+        },
+        {
+          "index": 26,
+          "name": "27_cliff_edge_right",
+          "row": 3,
+          "col": 2,
+          "x": 64,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "cliff",
+          "walkable": false,
+          "description": "Cliff right vertical boundary"
+        },
+        {
+          "index": 27,
+          "name": "28_crater_rim_bottom",
+          "row": 3,
+          "col": 3,
+          "x": 96,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "crater",
+          "walkable": false,
+          "description": "Crater southern rim edge"
+        },
+        {
+          "index": 28,
+          "name": "29_crater_rim_left",
+          "row": 3,
+          "col": 4,
+          "x": 128,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "crater",
+          "walkable": false,
+          "description": "Crater western rim edge"
+        },
+        {
+          "index": 29,
+          "name": "30_crater_rim_right",
+          "row": 3,
+          "col": 5,
+          "x": 160,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "crater",
+          "walkable": false,
+          "description": "Crater eastern rim edge"
+        },
+        {
+          "index": 30,
+          "name": "31_dusty_path_vertical",
+          "row": 3,
+          "col": 6,
+          "x": 192,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "path",
+          "walkable": true,
+          "description": "Compacted dusty path vertical"
+        },
+        {
+          "index": 31,
+          "name": "32_dusty_path_cross",
+          "row": 3,
+          "col": 7,
+          "x": 224,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32,
+          "category": "path",
+          "walkable": true,
+          "description": "Dusty rover path 4-way intersection"
+        }
+      ]
+    },
+    "minerals": {
+      "atlas": "minerals/minerals_atlas.png",
+      "native_size": [
+        24,
+        24
+      ],
+      "sprites": [
+        {
+          "index": 0,
+          "name": "blue_mineral_crystal",
+          "row": 0,
+          "col": 0,
+          "x": 0,
+          "y": 0,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 1,
+          "name": "yellow_mineral_crystal",
+          "row": 0,
+          "col": 1,
+          "x": 24,
+          "y": 0,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 2,
+          "name": "green_mineral_crystal",
+          "row": 0,
+          "col": 2,
+          "x": 48,
+          "y": 0,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 3,
+          "name": "purple_rare_mineral",
+          "row": 0,
+          "col": 3,
+          "x": 72,
+          "y": 0,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 4,
+          "name": "small_rock_sample",
+          "row": 1,
+          "col": 0,
+          "x": 0,
+          "y": 24,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 5,
+          "name": "geological_sample_container",
+          "row": 1,
+          "col": 1,
+          "x": 24,
+          "y": 24,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 6,
+          "name": "soil_sample",
+          "row": 1,
+          "col": 2,
+          "x": 48,
+          "y": 24,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 7,
+          "name": "crystal_sample",
+          "row": 1,
+          "col": 3,
+          "x": 72,
+          "y": 24,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        }
+      ]
+    },
+    "items": {
+      "atlas": "items/items_atlas.png",
+      "native_size": [
+        24,
+        24
+      ],
+      "sprites": [
+        {
+          "index": 0,
+          "name": "blue_mineral_crystal",
+          "row": 0,
+          "col": 0,
+          "x": 0,
+          "y": 0,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 1,
+          "name": "yellow_mineral_crystal",
+          "row": 0,
+          "col": 1,
+          "x": 24,
+          "y": 0,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 2,
+          "name": "green_mineral_crystal",
+          "row": 0,
+          "col": 2,
+          "x": 48,
+          "y": 0,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 3,
+          "name": "purple_rare_mineral",
+          "row": 0,
+          "col": 3,
+          "x": 72,
+          "y": 0,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 4,
+          "name": "small_rock_sample",
+          "row": 0,
+          "col": 4,
+          "x": 96,
+          "y": 0,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 5,
+          "name": "geological_sample_container",
+          "row": 1,
+          "col": 0,
+          "x": 0,
+          "y": 24,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 6,
+          "name": "soil_sample",
+          "row": 1,
+          "col": 1,
+          "x": 24,
+          "y": 24,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 7,
+          "name": "crystal_sample",
+          "row": 1,
+          "col": 2,
+          "x": 48,
+          "y": 24,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 8,
+          "name": "scientific_data_chip",
+          "row": 1,
+          "col": 3,
+          "x": 72,
+          "y": 24,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 9,
+          "name": "e_cell_energy",
+          "row": 1,
+          "col": 4,
+          "x": 96,
+          "y": 24,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 10,
+          "name": "oxygen_tank",
+          "row": 2,
+          "col": 0,
+          "x": 0,
+          "y": 48,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 11,
+          "name": "battery",
+          "row": 2,
+          "col": 1,
+          "x": 24,
+          "y": 48,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        },
+        {
+          "index": 12,
+          "name": "health_repair_kit",
+          "row": 2,
+          "col": 2,
+          "x": 48,
+          "y": 48,
+          "cell_width": 24,
+          "cell_height": 24,
+          "sprite_width": 24,
+          "sprite_height": 24
+        }
+      ]
+    },
+    "objects": {
+      "atlas": "objects/objects_atlas.png",
+      "cell_size": [
+        64,
+        64
+      ],
+      "sprites": [
+        {
+          "index": 0,
+          "name": "mars_rover",
+          "row": 0,
+          "col": 0,
+          "x": 0,
+          "y": 0,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 64,
+          "sprite_height": 64
+        },
+        {
+          "index": 1,
+          "name": "small_exploration_drone",
+          "row": 0,
+          "col": 1,
+          "x": 64,
+          "y": 0,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 2,
+          "name": "research_habitat",
+          "row": 0,
+          "col": 2,
+          "x": 128,
+          "y": 0,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 64,
+          "sprite_height": 64
+        },
+        {
+          "index": 3,
+          "name": "communication_beacon",
+          "row": 0,
+          "col": 3,
+          "x": 192,
+          "y": 0,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 4,
+          "name": "communication_tower",
+          "row": 0,
+          "col": 4,
+          "x": 256,
+          "y": 0,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 48,
+          "sprite_height": 64
+        },
+        {
+          "index": 5,
+          "name": "solar_panel",
+          "row": 1,
+          "col": 0,
+          "x": 0,
+          "y": 64,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 6,
+          "name": "supply_crate",
+          "row": 1,
+          "col": 1,
+          "x": 64,
+          "y": 64,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 7,
+          "name": "storage_container",
+          "row": 1,
+          "col": 2,
+          "x": 128,
+          "y": 64,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 48,
+          "sprite_height": 48
+        },
+        {
+          "index": 8,
+          "name": "scientific_scanning_instrument",
+          "row": 1,
+          "col": 3,
+          "x": 192,
+          "y": 64,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 9,
+          "name": "sample_collection_device",
+          "row": 1,
+          "col": 4,
+          "x": 256,
+          "y": 64,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 10,
+          "name": "scientific_marker_sign",
+          "row": 2,
+          "col": 0,
+          "x": 0,
+          "y": 128,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 11,
+          "name": "antenna",
+          "row": 2,
+          "col": 1,
+          "x": 64,
+          "y": 128,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 12,
+          "name": "small_rock_formations",
+          "row": 2,
+          "col": 2,
+          "x": 128,
+          "y": 128,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 13,
+          "name": "alien_cactus_plant",
+          "row": 2,
+          "col": 3,
+          "x": 192,
+          "y": 128,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 14,
+          "name": "dead_tree_unusual_plant",
+          "row": 2,
+          "col": 4,
+          "x": 256,
+          "y": 128,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 15,
+          "name": "geological_fossil",
+          "row": 3,
+          "col": 0,
+          "x": 0,
+          "y": 192,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 16,
+          "name": "ancient_surface_formation",
+          "row": 3,
+          "col": 1,
+          "x": 64,
+          "y": 192,
+          "cell_width": 64,
+          "cell_height": 64,
+          "sprite_width": 48,
+          "sprite_height": 48
+        }
+      ]
+    },
+    "hazards": {
+      "atlas": "hazards/hazards_atlas.png",
+      "native_size": [
+        32,
+        32
+      ],
+      "sprites": [
+        {
+          "index": 0,
+          "name": "sandstorm_f1",
+          "row": 0,
+          "col": 0,
+          "x": 0,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 1,
+          "name": "sandstorm_hazard",
+          "row": 0,
+          "col": 1,
+          "x": 32,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 2,
+          "name": "sandstorm_f2",
+          "row": 0,
+          "col": 2,
+          "x": 64,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 3,
+          "name": "sandstorm_f3",
+          "row": 0,
+          "col": 3,
+          "x": 96,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 4,
+          "name": "sandstorm_f4",
+          "row": 0,
+          "col": 4,
+          "x": 128,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 5,
+          "name": "rockfall_hazard_f1",
+          "row": 0,
+          "col": 5,
+          "x": 160,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 6,
+          "name": "rockfall_warning_hazard",
+          "row": 1,
+          "col": 0,
+          "x": 0,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 7,
+          "name": "rockfall_hazard_f2",
+          "row": 1,
+          "col": 1,
+          "x": 32,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 8,
+          "name": "rockfall_hazard_f3",
+          "row": 1,
+          "col": 2,
+          "x": 64,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 9,
+          "name": "rockfall_hazard_f4",
+          "row": 1,
+          "col": 3,
+          "x": 96,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 10,
+          "name": "radiation_zone_f1",
+          "row": 1,
+          "col": 4,
+          "x": 128,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 11,
+          "name": "radiation_zone",
+          "row": 1,
+          "col": 5,
+          "x": 160,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 12,
+          "name": "radiation_zone_f2",
+          "row": 2,
+          "col": 0,
+          "x": 0,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 13,
+          "name": "heat_zone_f1",
+          "row": 2,
+          "col": 1,
+          "x": 32,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 14,
+          "name": "heat_zone",
+          "row": 2,
+          "col": 2,
+          "x": 64,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 15,
+          "name": "heat_zone_f2",
+          "row": 2,
+          "col": 3,
+          "x": 96,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 16,
+          "name": "cracked_terrain",
+          "row": 2,
+          "col": 4,
+          "x": 128,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 17,
+          "name": "hostile_robot_f1",
+          "row": 2,
+          "col": 5,
+          "x": 160,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 18,
+          "name": "hostile_robotic_unit",
+          "row": 3,
+          "col": 0,
+          "x": 0,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 19,
+          "name": "hostile_robot_f2",
+          "row": 3,
+          "col": 1,
+          "x": 32,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 20,
+          "name": "hostile_robot_f3",
+          "row": 3,
+          "col": 2,
+          "x": 64,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 21,
+          "name": "hostile_robot_f4",
+          "row": 3,
+          "col": 3,
+          "x": 96,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        }
+      ]
+    },
+    "effects": {
+      "atlas": "effects/effects_atlas.png",
+      "native_size": [
+        32,
+        32
+      ],
+      "sprites": [
+        {
+          "index": 0,
+          "name": "scanning_pulse_f1",
+          "row": 0,
+          "col": 0,
+          "x": 0,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 1,
+          "name": "scanning_pulse_f2",
+          "row": 0,
+          "col": 1,
+          "x": 32,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 2,
+          "name": "scanning_pulse_f3",
+          "row": 0,
+          "col": 2,
+          "x": 64,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 3,
+          "name": "scanning_pulse",
+          "row": 0,
+          "col": 3,
+          "x": 96,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 4,
+          "name": "scanning_pulse_f4",
+          "row": 0,
+          "col": 4,
+          "x": 128,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 5,
+          "name": "sample_collection_effect_f1",
+          "row": 0,
+          "col": 5,
+          "x": 160,
+          "y": 0,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 6,
+          "name": "sample_collection_effect_f2",
+          "row": 1,
+          "col": 0,
+          "x": 0,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 7,
+          "name": "sample_collection_effect",
+          "row": 1,
+          "col": 1,
+          "x": 32,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 8,
+          "name": "sample_collection_effect_f3",
+          "row": 1,
+          "col": 2,
+          "x": 64,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 9,
+          "name": "sample_collection_effect_f4",
+          "row": 1,
+          "col": 3,
+          "x": 96,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 10,
+          "name": "dust_trail_f1",
+          "row": 1,
+          "col": 4,
+          "x": 128,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 11,
+          "name": "dust_trail",
+          "row": 1,
+          "col": 5,
+          "x": 160,
+          "y": 32,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 12,
+          "name": "dust_trail_f2",
+          "row": 2,
+          "col": 0,
+          "x": 0,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 13,
+          "name": "dust_trail_f3",
+          "row": 2,
+          "col": 1,
+          "x": 32,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 14,
+          "name": "dust_trail_f4",
+          "row": 2,
+          "col": 2,
+          "x": 64,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 15,
+          "name": "footprints",
+          "row": 2,
+          "col": 3,
+          "x": 96,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 16,
+          "name": "footprints_horizontal",
+          "row": 2,
+          "col": 4,
+          "x": 128,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 17,
+          "name": "spark_energy_f1",
+          "row": 2,
+          "col": 5,
+          "x": 160,
+          "y": 64,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 18,
+          "name": "spark_energy_f2",
+          "row": 3,
+          "col": 0,
+          "x": 0,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 19,
+          "name": "spark_energy_effect",
+          "row": 3,
+          "col": 1,
+          "x": 32,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 20,
+          "name": "spark_energy_f3",
+          "row": 3,
+          "col": 2,
+          "x": 64,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 21,
+          "name": "spark_energy_f4",
+          "row": 3,
+          "col": 3,
+          "x": 96,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 22,
+          "name": "explosion_malfunction_f1",
+          "row": 3,
+          "col": 4,
+          "x": 128,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 23,
+          "name": "explosion_malfunction_f2",
+          "row": 3,
+          "col": 5,
+          "x": 160,
+          "y": 96,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 24,
+          "name": "small_explosion_malfunction",
+          "row": 4,
+          "col": 0,
+          "x": 0,
+          "y": 128,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 25,
+          "name": "explosion_malfunction_f3",
+          "row": 4,
+          "col": 1,
+          "x": 32,
+          "y": 128,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        },
+        {
+          "index": 26,
+          "name": "explosion_malfunction_f4",
+          "row": 4,
+          "col": 2,
+          "x": 64,
+          "y": 128,
+          "cell_width": 32,
+          "cell_height": 32,
+          "sprite_width": 32,
+          "sprite_height": 32
+        }
+      ]
+    },
+    "ui": {
+      "ui_icons_atlas": "ui/ui_icons.png",
+      "icon_size": [
+        16,
+        16
+      ],
+      "icons": [
+        "health_icon",
+        "oxygen_icon",
+        "battery_icon",
+        "sample_icon",
+        "mineral_icon",
+        "map_icon",
+        "scanner_icon",
+        "objective_marker",
+        "hazard_marker",
+        "route_marker",
+        "interaction_icon",
+        "inventory_icon",
+        "pause_icon",
+        "settings_icon",
+        "mission_log_icon"
+      ],
+      "hud_bars": "ui/hud_bars.png",
+      "minimap_frame": "ui/minimap_frame.png",
+      "controls": "ui/controls.png"
+    }
+  }
+}
